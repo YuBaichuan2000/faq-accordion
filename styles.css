@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    padding: 20px 20%;
+}
+
+*, *:before, *:after {
+    margin: 0;;
+    box-sizing: inherit;
+}
+
+#main-container {
+    border: 3px black solid;
+    height: 550px;
+}
+
+#top-container {
+    /* border: 2px red solid; */
+    height: 20%;
+}
+
+#bottom-container {
+    /* border: 2px blue solid; */
+    height: 80%;
+}
+
+.accordion {
+    height: 25%;
+    border: 2px red solid;
+}
+
+.accordion {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
