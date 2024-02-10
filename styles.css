@@ -10,12 +10,13 @@ html {
 
 #main-container {
     border: 3px black solid;
-    height: 550px;
+    height: auto;
 }
 
 #top-container {
     /* border: 2px red solid; */
     height: 20%;
+    padding: 30px 10px;
 }
 
 #bottom-container {
@@ -28,9 +29,33 @@ html {
     border: 2px red solid;
 }
 
-.accordion {
-    padding: 5%;
+.question {
+    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#answer-1 {
+    padding: 20px 10px;
+    display: none;
+}
+
+#answer-2 {
+    padding: 20px 10px;
+    display: none;
+}
+
+#answer-3 {
+    padding: 20px 10px;
+    display: none;
+}
+
+#answer-4 {
+    padding: 20px 10px;
+    display: none;
+}
+
+.minus {
+    display: none;
 }
