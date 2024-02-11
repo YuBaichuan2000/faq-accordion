@@ -5,7 +5,7 @@ function handleExpandClick(event) {
     let ans = parent.parentNode.nextElementSibling;
     let plusSvg = parent.children[0]; 
     let minusSvg = parent.children[1];
-    if (ans.style.display == 'none') {
+    if (ans.style.display === 'none' || ans.style.display === '') {
         ans.style.display = 'block';
         plusSvg.style.display = 'none';
         minusSvg.style.display = 'block';
