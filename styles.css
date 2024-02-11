@@ -1,7 +1,5 @@
 html {
     box-sizing: border-box;
-    padding: 20% 30%;
-    padding-top: 15%;
     background-color: #f9f0ff;
     font-size: 16px;
     background-image: url('assets/images/background-pattern-desktop.svg');
@@ -17,9 +15,11 @@ html {
 #main-container {
     /* border: 3px black solid; */
     height: auto;
+    width: 560px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
     background-color: white;
+    margin: 10% auto;
 }
 
 #top-container {
